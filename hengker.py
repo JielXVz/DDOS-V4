@@ -20,19 +20,18 @@ if password=="zielxv4":
   print("=>DONT FORGET TO SUBS MY YOUTUBE CHANNEL<=")
   time.sleep(3)
 os.system("clear")
-print("\033[92m
 
-███████╗██╗███████╗██╗░░░░░██╗░░██╗
-╚════██║██║██╔════╝██║░░░░░╚██╗██╔╝
-░░███╔═╝██║█████╗░░██║░░░░░░╚███╔╝░
-██╔══╝░░██║██╔══╝░░██║░░░░░░██╔██╗░
-███████╗██║███████╗███████╗██╔╝╚██╗
-╚══════╝╚═╝╚══════╝╚══════╝╚═╝░░╚═╝
-         >>>  HAI KONTOL!!! 
-         >>>  Build By ZieLx
-         >>>  My Community discord.gg/treax
-         >>>  My Youtube : ZIEL ?
-")
+print("\033[92m███████╗██╗███████╗██╗░░░░░██╗░░██╗ ") 
+print("\033[92m╚════██║██║██╔════╝██║░░░░░╚██╗██╔╝ ") 
+print("\033[92m░░███╔═╝██║█████╗░░██║░░░░░░╚███╔╝░ ") 
+print("\033[92m██╔══╝░░██║██╔══╝░░██║░░░░░░██╔██╗░ ") 
+print("\033[92m███████╗██║███████╗███████╗██╔╝╚██╗ ") 
+print("\033[92m╚══════╝╚═╝╚══════╝╚══════╝╚═╝░░╚═╝ ") 
+print("\033[92m         >>>  HAI KONTOL!!!  ") 
+print("\033[92m        >>>  Build By ZieLx  ") 
+print("\033[92m         >>>  My Community discord.gg/treax ") 
+print("\033[92m         >>>  My Youtube : ZIEL ? ") 
+
 
 ip = str(input("===> IP TARGET : "))
 port = int(input("===> PORT TARGET : "))
