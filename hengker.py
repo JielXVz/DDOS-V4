@@ -4,23 +4,23 @@ import threading
 import os,sys
 import time
 
+os.system("clear") 
 password = input("[+] Password :")
 time.sleep(2)
 print("[•]  WAIT FOR 5 SECOND!!! ") 
 time.sleep(5) 
-if password=="zielx":
+if password=="zielxv4":
   print("[✓] Login Successful!!!")
   time.sleep(3)
   os.system("clear")
-  print("\033[1;34;40m=>Build By ZieLx<=")
+  print("=>Build By ZieLx<=")
   time.sleep(1)
-  print("\033[1;34;40m=>YT ZIEL ?<= ")
+  print("=>YT ZIEL ?<= ")
   time.sleep(1)
-  print("\033[1;34;40m=>DONT FORGET TO SUBS MY YOUTUBE CHANNEL<=")
+  print("=>DONT FORGET TO SUBS MY YOUTUBE CHANNEL<=")
   time.sleep(3)
-os.system('clear')
-print("""
-\033[1;31;40m
+os.system("clear")
+print("\033[92m
 
 ███████╗██╗███████╗██╗░░░░░██╗░░██╗
 ╚════██║██║██╔════╝██║░░░░░╚██╗██╔╝
@@ -31,8 +31,8 @@ print("""
          >>>  HAI KONTOL!!! 
          >>>  Build By ZieLx
          >>>  My Community discord.gg/treax
-         >>>  My Youtube : ZIEL ?\033[1;31;40m
-""")
+         >>>  My Youtube : ZIEL ?
+")
 
 ip = str(input("===> IP TARGET : "))
 port = int(input("===> PORT TARGET : "))
@@ -72,4 +72,4 @@ for y in range(threads):
 else:
 		th = threading.Thread(target = wibu2)
 		th.start()
-		print("\033[1;31;40m[!] Wrong Password!")
+		print("[!] Wrong Password!")
